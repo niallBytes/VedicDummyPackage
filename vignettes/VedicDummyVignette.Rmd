@@ -1,0 +1,25 @@
+---
+title: "VedicDummyVignette"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{VedicDummyVignette}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(VedicDummyPackage)
+```
+print(dummy_function1())
+print(dummy_function2())
+print(dummy_function3())
+print(dummy_function4())
+print(dummy_function5())
+
